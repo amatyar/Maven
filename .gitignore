@@ -1,0 +1,88 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Videos
+/UpdatePrismBinaries.bat
+/StockTrader RI
+/source
+/Silverlight only - Open QS - View-Switching Navigation QuickStart.bat
+/Silverlight only - Open QS - UI Composition QuickStart.bat
+/Silverlight only - Open QS - State-based Navigation QuickStart.bat
+/Silverlight only - Open QS - Hello World QuickStart.bat
+/Silverlight only - Open Modularity With Unity QuickStart.bat
+/Silverlight only - Open Modularity With Mef QuickStart.bat
+/Silverlight Only - MVVM Reference Implementation.bat
+/Silverlight Only - MVVM QuickStart.bat
+/Silverlight Only - Basic MVVM QuickStart.bat
+/Settings.StyleCop
+/Searches
+/Scripts
+/SchoolContext-d79cee37-f71c-460b-b7ac-7df43b3ca26b_log.ldf
+/SchoolContext-d79cee37-f71c-460b-b7ac-7df43b3ca26b.mdf
+/Saved Games
+/repo
+/RegisterPrismBinaries.bat
+/readme.mht
+/Quickstarts
+/PrismLibrary
+/Prism4APIReference-Silverlight.chm
+/Prism4APIReference-Phone.chm
+/Prism4APIReference-Desktop.chm
+/Prism4.chm
+/OneDrive
+/ntuser.ini
+/NTUSER.DAT{f9efee8d-239d-11eb-91cd-d89ef34c09b4}.TMContainer00000000000000000002.regtrans-ms
+/NTUSER.DAT{f9efee8d-239d-11eb-91cd-d89ef34c09b4}.TMContainer00000000000000000001.regtrans-ms
+/NTUSER.DAT{f9efee8d-239d-11eb-91cd-d89ef34c09b4}.TM.blf
+/NTUSER.DAT{43596f36-b9b7-11eb-9228-d89ef34c09b4}.TMContainer00000000000000000002.regtrans-ms
+/NTUSER.DAT{43596f36-b9b7-11eb-9228-d89ef34c09b4}.TMContainer00000000000000000001.regtrans-ms
+/NTUSER.DAT{43596f36-b9b7-11eb-9228-d89ef34c09b4}.TM.blf
+/ntuser.dat.LOG2
+/ntuser.dat.LOG1
+/NTUSER.DAT
+/notice.txt
+/myproject
+/myfirstmodule.js
+/myfirst.js
+/MVVM RI
+/Music
+/MicrosoftEdgeBackups
+/Links
+/Lib
+/IntelGraphicsProfiles
+/FirstProject
+/Favorites
+/Eula.txt
+/Downloads
+/Documents
+/Desktop only - Prism Library.bat
+/Desktop only - Open RI - StockTrader Reference Implementation.bat
+/Desktop only - Open QS - Hello World QuickStart.bat
+/Desktop only - Open QS - EventAggregator QuickStart.bat
+/Desktop only - Open QS - Commanding QuickStart.bat
+/Desktop only - Open Modularity With Unity QuickStart.bat
+/Desktop only - Open Modularity With Mef QuickStart.bat
+/Desktop & Silverlight - Open RI - StockTrader Reference Implementation.bat
+/Desktop & Silverlight - Open QS - MultiTargeting QuickStart.bat
+/Desktop & Silverlight - Open QS - EventAggregator QuickStart.bat
+/Desktop & Silverlight - Open QS - Commanding QuickStart.bat
+/Desktop & Silverlight - Open Prism Library.bat
+/demo_readfile.js
+/demofile1.html
+/da.txt
+/Contacts
+/ChartControls
+/Bin
+/aspnetcoreapp
+/AppData
+/AcceptanceTestLibrary
+/3D Objects
+/.templateengine
+/.nuget
+/.node_repl_history
+/.gitconfig
+/.dotnet
+/.config
+/.bash_history
+/.azds
