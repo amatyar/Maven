@@ -1,0 +1,47 @@
+
+public class July6A 
+{
+	public static void main(String[] args) 
+	{
+		Clinic cl = new Clinic("Boston Hospital ", 305 , 'c', 114);
+		cl.Location();
+
+	}
+
+}
+class Hospital
+{
+	String Name;
+	int ward;
+	char code;
+	
+	public Hospital(String Nm, int wd, char cd) 
+	{
+		this.Name = Nm;
+		this.ward = wd;
+		this.code = cd;
+	}
+	public void DisplayHospital()
+	{
+		System.out.println("Name of Hospital: "+this.Name +"Ward number: "+ this.ward+" Code:" + this.code);
+	}
+}
+class Clinic extends Hospital
+{
+	int BedNo;
+	
+	public Clinic(String Nm, int wd, char cd, int bn) 
+	{
+		super(Nm, wd, cd);
+		this.BedNo = bn;
+		
+	}
+	public void Location() 
+	{
+		System.out.println("Bed number "+this.BedNo);
+		super.DisplayHospital();
+	}
+}
+
+
+	

@@ -1,0 +1,21 @@
+package Two;
+
+public class OverloadingArray 
+{
+	public static void main(String[] args) 
+	{
+		int[] ar = {3,4,5,9,1,88};
+		
+		ar.arrLoad(Arr);
+	}
+}
+class OverArray
+{ 	
+	public static void arrLoad(int[] Arr) 
+	{
+		for(int i : Arr)
+		{
+			System.out.println(i);
+		}
+	}
+}

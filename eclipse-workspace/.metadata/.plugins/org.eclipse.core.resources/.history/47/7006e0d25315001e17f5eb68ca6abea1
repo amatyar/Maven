@@ -1,0 +1,37 @@
+
+public class June27
+{
+	public static void main(String[] args) 
+	{
+		Student stu= new Student(25);
+		System.out.println(stu.id);
+	stu.contact= " Harvard square";
+	stu.Name=" Beth B";
+	stu.year=2005;
+		System.out.println(stu.Name + stu.contact + stu.year);
+		
+	}
+}
+class Student
+{
+	int id, year;
+	String Name, contact;
+	
+	public Student(int ID ) 
+	{
+		this.id= ID;	
+		
+	}
+	
+	public Student(int Year, String Contact, String name) 
+	{
+		//this(25);
+		this.year= Year;
+		this.contact = Contact;
+		this.Name = name;
+	}
+	
+}
+
+
+

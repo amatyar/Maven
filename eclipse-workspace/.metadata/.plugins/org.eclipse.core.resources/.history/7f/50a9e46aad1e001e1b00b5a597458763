@@ -1,0 +1,54 @@
+package Boston;
+
+public class OnArrayInheritance 
+{
+
+	public static void main(String[] args) 
+	{
+		Animals [] arr = 
+			{ 
+				new Animals("cat", 2),		
+				new Animals("Dog", 12),
+				new Animals("Rabbit", 23),
+				new Animals("Mouse", 9)	
+			};
+		Dog[] dg= 
+			{	new Dog("Doju", "Brown", 3),
+				new Dog("Sonu", "Black", 4),
+				new Dog("Cinku", "dark brown", 4)};
+
+			};
+			
+			for(Animals aa: arr)
+			{
+				System.out.println(aa);
+			}
+			
+class Animals
+{
+	String name;	
+	int age;
+	
+	public Animals(String nm, int ag)
+	{
+		this.name  = nm;		
+		this.age = ag;
+	}
+	
+	public void moving()
+	{
+		System.out.println("Run, swim, walk");
+	}
+}
+class Dog extends Animals{
+	String color;
+	public Dog(String nm, String cl, int ag) {
+		super(nm, ag);
+		this.color = cl;		
+	}
+	
+	public void moving()
+	{
+		System.out.println("this dog is:"+ this.name +","+this.color+","+this.age);
+	}
+}

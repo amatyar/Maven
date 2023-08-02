@@ -1,0 +1,24 @@
+package Two;
+
+import java.util.Arrays;
+
+public class OverloadingArray 
+{
+	public static void main(String[] args) 
+	{
+		int[] ints = {3,4,5,9,1,8};
+		
+		OverArray ar= new OverArray();
+		ar.arrLoad(ints);
+	}
+}
+class OverArray
+{ 	
+	public static void arrLoad(int[] ints) 
+	{
+		for(int i : ints)
+		{
+			//System.out.println(i);
+		}System.out.println(Arrays.toString(ints));
+	}
+}

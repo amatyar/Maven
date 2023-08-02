@@ -1,0 +1,19 @@
+
+public class ExamJuly9 
+{
+
+	public static void main(String[] args)
+	{
+		// Program 1. write a function which accept two int , add them and return int
+		
+		int add = addition(5, 9);
+		System.out.println(add);
+		
+
+	}
+	public static int  addition(int a , int b) 
+	{
+		return a + b;
+	}
+
+}

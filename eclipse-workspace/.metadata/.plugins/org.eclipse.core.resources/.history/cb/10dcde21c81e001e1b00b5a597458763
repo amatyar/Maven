@@ -1,0 +1,27 @@
+
+public class ExamJuly9b 
+{
+// Write an example of method overriding
+	public static void main(String[] args) 
+	{
+		process24 p2 = new process24();
+	
+		p2.add(5, 6);
+
+	}
+
+
+
+}
+class process24
+{
+	public void add(int a , int b) 
+	{
+	System.out.println("My two integer :"+ a +", " + b);
+	}
+}
+class processer24 extends process24{
+	public void add(int a, int b) {
+		System.out.println("My addition is :"+ a + b);
+	}
+}

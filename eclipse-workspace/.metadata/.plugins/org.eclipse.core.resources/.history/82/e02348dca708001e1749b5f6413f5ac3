@@ -1,0 +1,12 @@
+package one;
+
+public class ifelse {
+
+	public static void main(String[] args) {
+		int a = 128;
+		
+		
+		System.out.println("Hello 128");
+	
+	}
+}

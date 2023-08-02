@@ -1,0 +1,42 @@
+
+public class June23 {
+
+	public static void main(String[] args)
+	{
+		
+		//Creating Classes
+		
+		Animal Dog = new Animal();
+		Animal Cat = new Animal();
+		
+		Dog.age = 4;
+		Dog.color = " Black";
+		
+		Cat.age = 3;
+		Cat.color="Brown";
+		System.out.println("your Dogs age and color : " + Dog.age + ","+ Dog.color);
+		
+		
+		
+	}
+}
+	class Animal
+	{
+		//Properties
+		//String name;
+		int age;
+		String color;
+		
+		//Methods
+		
+		public void run()
+		{
+			System.out.println("this pet run fast.");
+		}
+		public void eat()
+		{
+			System.out.println("this pet eat meat only.");
+		}
+	}
+
+

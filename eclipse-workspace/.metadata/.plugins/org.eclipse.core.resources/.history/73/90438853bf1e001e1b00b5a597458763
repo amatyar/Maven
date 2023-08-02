@@ -1,0 +1,38 @@
+
+public class June14A 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		//Program 3 reverse out put
+		String strName= "Rabindra", 
+				strName1="";
+        char ch;
+        int i;    
+            
+      for ( i=0; i<strName.length(); i++)
+    	  
+    	  
+      {
+       ch= strName.charAt(i); //extracts each character
+       strName1  = ch + strName1; //adds each character in front of the existing string
+      }
+      System.out.println( strName1); // reverse word
+
+			System.out.println(i);	// number of words 
+	System.out.println("****************");
+	
+	for ( i=strName.length(); i>=0; i--)
+  	  
+  	  
+    {
+     ch =  strName.charAt(i); //extracts each character
+     strName1  =  strName1+ch; //adds each character in front of the existing string
+    }
+    System.out.println( strName1); // reverse word
+
+			System.out.println(i);	// number of words 
+	}
+
+}

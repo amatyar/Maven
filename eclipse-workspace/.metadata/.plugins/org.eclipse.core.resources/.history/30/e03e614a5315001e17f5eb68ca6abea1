@@ -1,0 +1,28 @@
+
+public class June27
+{
+	public static void main(String[] args) 
+	{
+		Student stu= new Student(25);
+		System.out.println(stu.id);
+
+		
+	}
+}
+class Student
+{
+	int id, year;
+	String Name, contact;
+	
+	public Student(int ID ) 
+	{
+		this.id= ID;	
+		
+	}
+	
+	
+	
+}
+
+
+

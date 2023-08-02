@@ -1,0 +1,65 @@
+
+public class July6A 
+{
+	public static void main(String[] args) 
+	{
+		Clinic cl = new Clinic("Boston Hospital", 305 , 'c', 114);
+		cl.DisplayHospital();
+		System.out.println("--------Next Case-----");
+		Room rm = new Room("Cambridge Hosp.", 211, 'A', 105, "Normal");
+		rm.DisplayHospital();
+
+	}
+
+}
+class Hospital
+{
+	String Name;
+	int ward;
+	char code;
+	
+	public Hospital(String Nm, int wd, char cd) 
+	{
+		this.Name = Nm;
+		this.ward = wd;
+		this.code = cd;
+	}
+	public void DisplayHospital()
+	{
+		System.out.println("Name of Hospital: "+this.Name +"Ward number: "+ this.ward+" Code:" + this.code);
+	}
+}
+class Clinic extends Hospital
+{
+	int BedNo;
+	
+	public Clinic(String Nm, int wd, char cd, int bn) 
+	{
+		super(Nm, wd, cd);
+		this.BedNo = bn;
+		
+	}
+	// overriding
+	public void DisplayHospital() 
+	{
+		System.out.println("Bed number "+this.BedNo);
+		super.DisplayHospital();
+	}
+}
+class Room extends Clinic
+{  
+	String note;
+	public Room(String Nm, int wd, char cd, int bn, String nt ) {
+		super(Nm, wd, cd, bn);
+		this.note= nt;
+	}
+
+	public void DisplayHospital()
+	{
+		System.out.println("Condition"+this.note);
+		super.DisplayHospital();
+	}
+	
+}
+
+	

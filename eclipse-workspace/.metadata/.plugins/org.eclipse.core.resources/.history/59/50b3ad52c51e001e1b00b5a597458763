@@ -1,0 +1,37 @@
+
+public class ExamJuly9a 
+{
+
+	public static void main(String[] args) 
+	{
+		// program 3. write an example for multiple level inheritance(a -> b-> c)
+		Grandfather gf = new Grandfather("Ram", "Amatya", 98);
+		gf.displayNameAge();
+	}
+
+}
+class Grandfather
+{ 
+	String FirstName;
+	String LastName;
+	int age;
+	public Grandfather(String fn, String ln, int ag) 
+	{
+		this.FirstName= fn;
+		this.LastName = ln;
+		this.age      =ag;
+	}
+	public void displayNameAge()
+	{
+		System.out.println("Full Name:"+this.FirstName +" "+this.LastName +"\tAge:\t"+this.age);
+	}
+	
+}
+class Father
+{
+	
+}
+class Son
+{
+	
+}

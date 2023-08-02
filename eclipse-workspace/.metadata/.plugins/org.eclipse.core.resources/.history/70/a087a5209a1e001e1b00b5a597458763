@@ -1,0 +1,38 @@
+package Boston;
+
+public class OnArrayOverLoading 
+{
+	public static void main(String[] args) 
+	{
+		int[] iarr = {4,5,9,3,8,1};
+		OverloadingMethod om = new OverloadingMethod();
+		om.ArrayOn(iarr);
+
+	}
+}
+class OverloadingMethod
+{
+	public void ArrayOn(int arr[])
+	{
+		System.out.println("The interger array is here:");
+		// all array is on for each loop
+		for(int i : arr) 
+		{
+			System.out.println(i);
+		}
+		
+	}
+	public void ArrayOn(String arr[])
+	{
+		System.out.println("The String array is here:");
+	}
+	public void ArrayOn(Character arr[])
+	{
+		System.out.println("The Character array is here:");
+	}
+	public void ArrayOn(Double arr[])
+	{
+		System.out.println("The double array is here:");
+	}
+	
+}

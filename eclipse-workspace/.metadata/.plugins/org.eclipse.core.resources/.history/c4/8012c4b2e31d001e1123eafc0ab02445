@@ -1,0 +1,33 @@
+package Two;
+
+import java.util.Arrays;
+
+public class OverloadingArray 
+{
+	public static void main(String[] args) 
+	{
+		int[] ints = {3,4,5,9,1,8};
+		char[] cars = {'A','B', 'C','P','R','X', 'Y'};
+		
+		OverArray ar= new OverArray();
+		ar.arrLoad(ints);
+		ar.arrLoad(cars);
+	}
+}
+class OverArray
+{ 	
+	public static void arrLoad(int[] ints) 
+	{
+		for(int i : ints)
+		{
+			//System.out.println(i);
+		}System.out.println(Arrays.toString(ints));
+	}
+	public static void arrLoad(char[] cars) 
+	{
+		for(char i : cars)
+		{
+			//System.out.println(i);
+		}System.out.println(Arrays.toString(cars));
+	}
+}

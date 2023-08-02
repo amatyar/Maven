@@ -1,0 +1,46 @@
+
+public class June27
+{
+
+	public static void main(String[] args) 
+	{
+		// creating object
+		sum nu = new sum();
+		
+		
+		nu.a = 8;
+		nu.b= " Copy right today";
+	System.out.println(nu.a);
+	System.out.println(nu.b);
+	nu.test();
+		
+	}
+}
+class sum
+{
+	int a;
+	String b;
+	//Construction 3
+	public sum() // default
+	{
+		System.out.println(" this is default");///
+	}
+	public sum(int A)
+	{
+		this.a = A;
+		//System.out.println("first number"+ A);
+	}
+	public sum( int A, String B) {
+		this.a =A;
+		this.b= B;
+		//System.out.println(A + B);
+	}
+	// Method
+	public static void test()
+	{
+		System.out.println(" Hello");
+	}
+}
+
+
+

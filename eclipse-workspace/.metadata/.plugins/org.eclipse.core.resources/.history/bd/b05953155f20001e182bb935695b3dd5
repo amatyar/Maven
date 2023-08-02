@@ -1,0 +1,61 @@
+/**
+ * @author Rabindra
+ *
+ */
+public class July11A 
+{	
+	public static void main(String[] args) 
+	{
+		entratainment ent = new entratainment(72, 25.00, "Egals");
+		ent.NumberOfSeat();
+
+	}
+
+}
+class entratainment{
+	 private int NoOfSeat;
+	 protected double entranceFee;
+	 protected String BandName;
+	 
+	 public entratainment(int ns, double ef,  String BN) 
+	 {
+		 this.NoOfSeat    = ns;
+		 this.entranceFee = ef;
+		 this.BandName    = BN;
+	 }
+	 
+	 public void NumberOfSeat()
+	 {
+		 System.out.println("Total number of seat :\t"+this.NoOfSeat);
+		 this.BandEntrance();
+	 }
+	 
+	 private void BandEntrance()
+	 {
+		 System.out.println("Band Name :\t"+ this.BandName+ "Cost :\t"+this.entranceFee);
+	 }
+}
+class Consert extends entratainment
+{
+   protected String location;
+   private String code = "App987";
+	public Consert(int ns, int ef, String BN, String ln, String cd) {
+		super(ns, ef, BN);
+		this.location = ln;
+		this.code = cd;
+	}
+	
+	public void LocationForEvent()
+	{
+		System.out.println("Our event Location : \t"+ this.location);
+	}
+	public void PassOfEvent() {
+		System.out.println("Code :\t"+this.code);
+	}
+	public void AllInOne() 
+	{
+		super.NumberOfSeat();
+		this.LocationForEvent();
+	}
+	
+}

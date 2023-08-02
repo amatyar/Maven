@@ -1,0 +1,19 @@
+package one;
+
+public class ifelse {
+
+	public static void main(String[] args) {
+		int a = 128;
+		if (a > 99 ) {
+			System.out.println("you are super");
+		}
+if(a>88) {
+	System.out.println("very good");
+}
+if (a>22)
+{
+	System.out.println(" you are out");
+}
+	}
+
+}

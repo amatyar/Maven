@@ -1,0 +1,47 @@
+
+public class Practice13 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+ int t = 1;
+ while(t <= 5)
+	 	{
+		 System.out.println(t);
+		 t ++;
+	 	}
+  System.out.println("---------------");
+ // Program 2
+ 
+  int t1 =100;
+  while(t1 >= 5) 
+  {
+	  System.out.println(t1);
+	  t1 = t1- 5;
+     }
+	
+  System.out.println("---------------");
+	//program 3
+	
+	int p = 6;
+	while(p <= 12) 
+	{
+		System.out.println(" we are in the Java class!\n");
+		p++;
+	}
+	
+	 System.out.println("---------------");
+	
+	int R= 1;
+	while( R >= 10) 
+	{
+		System.out.println(R);
+		if(R==5)
+		{
+			break;
+		}
+		
+	}
+	}
+
+}

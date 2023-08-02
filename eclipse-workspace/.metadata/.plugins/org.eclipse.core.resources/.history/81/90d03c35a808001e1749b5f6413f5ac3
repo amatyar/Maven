@@ -1,0 +1,17 @@
+package one;
+
+public class ifelse {
+
+	public static void main(String[] args) {
+		int a = 128;
+		
+		if (a > 0  && a <= 1000) {
+			System.out.println("You can get extra drink");
+		}
+		if (a> 10 && a<= 900)
+		{
+			System.out.println("Two more drink please");
+		}
+	
+	}
+}

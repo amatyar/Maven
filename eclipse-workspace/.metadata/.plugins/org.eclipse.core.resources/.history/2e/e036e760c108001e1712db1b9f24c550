@@ -1,0 +1,23 @@
+package one;
+
+public class Test6_11 {
+
+	public static void main(String[] args) 
+	{
+		// write a function for addition of two number
+		addition();
+		//Define two variables and perform arithmetic operation
+		
+		// define  three variables and print greatest variable out of three 
+		
+		// Write a program for switch case (case for city and print respective state)
+		
+
+	}
+	// write a function for addition of two numbers
+	public static void addition() 
+	{
+		System.out.println(" 3 + 8");
+	}
+
+}

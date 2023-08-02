@@ -1,0 +1,79 @@
+import java.util.Arrays;
+
+public class july7 
+{
+	// private,  super
+	public static void main(String[] args) 
+	{
+		BCD  cd = new BCD(255, "Java the world","Programming");
+		
+		BCD b[]= {
+					new BCD(30,"Radhika", "Sharma"), 
+					new BCD(25,"Hope", "Solo"), 
+					new BCD(30,"Lady", "Ada"), 
+					new BCD(29,"Katy", "Perry"), 
+					new BCD(35,"mary", "jane") 
+				
+		};
+		// for loop 
+		 for(int i = 0; i<b.length; i++) { 
+		  b[i].DisplayNn(); 
+		  b[i].DisplayNS();
+		  //System.out.println(Arrays.toString(b[i]));
+		 } 
+		  
+		 // While 
+		  
+		 int A = 0; 
+		 while(A<b.length); 
+		 b[A].DisplayNn(); 
+		 b[A].DisplayNS();
+		 A++; 
+		  
+		 //forEach 
+		  
+		 for(BCD lady : b) { 
+		  lady.DisplayNn();
+		  lady.DisplayNS();
+		 } 
+		
+		System.out.println(cd.subject);
+		cd.DisplayNS();
+		cd.DisplayNn();
+		
+		
+	}
+}
+class ABCD
+{
+	private int number;
+	private String Name;
+	
+	public ABCD(int num, String nm)
+	{
+		this.Name   = nm;
+		this.number = num;	
+		
+	}
+	public void DisplayNn() {
+		System.out.println(this.Name +" ," + this.number);
+	}
+}
+
+class BCD extends ABCD
+{
+	String subject;
+
+	public BCD(int num, String nm, String sb) 
+	{
+		
+		super(num, nm);
+		this.subject = sb;
+		
+	}
+	public void DisplayNS()
+	{
+		System.out.println(this.subject);
+		super.DisplayNn();
+	}
+}

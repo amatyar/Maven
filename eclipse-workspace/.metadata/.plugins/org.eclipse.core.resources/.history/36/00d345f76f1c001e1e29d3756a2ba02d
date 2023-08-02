@@ -1,0 +1,40 @@
+import java.util.Arrays;
+
+import Two.Processor;
+
+public class July6 
+{
+		// for overloading
+	public static void main(String[] args) 
+	{
+		Active pro= new Active();
+		int q = pro.Act(58, 64);
+		System.out.println("Sum of two number : " +q);
+		int ints[] = { 45,56,36,25,81};
+		String objs[]= {"Ralph", "shally", "Duran"};
+		pro.Act(ints);
+		pro.Act(objs);
+		
+
+	}
+
+}
+class Active {  
+
+	public int Act(int i, int j) {
+		
+		return i + j;
+		
+	}
+
+	public void Act(int[] ints) {
+		System.out.println("Calling integer array:" + Arrays.toString(ints));
+	}
+
+	public void Act(String[] objs) {
+		System.out.println("Calling String  array:" + Arrays.toString(objs));
+		
+	} 
+		
+		
+}

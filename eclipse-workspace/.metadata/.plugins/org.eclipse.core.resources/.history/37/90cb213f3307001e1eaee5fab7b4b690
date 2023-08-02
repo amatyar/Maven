@@ -1,0 +1,27 @@
+
+public class Upto6_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String city = "Boston";
+		switch(city)
+		{
+		case "Boston":
+			System.out.println("MA");
+		case "New York":
+			System.out.println("NY");
+		case "Reston":
+			System.out.println("VA");
+		case "Dallas":
+			System.out.println("TX");
+		case "Los Angeles":
+			System.out.println("CA");
+			default:
+				System.out.println("Please check it once, you enter incorrect word.");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+import Two.Processor;
+
+public class July6 
+{
+		// for overloading
+	public static void main(String[] args) 
+	{
+		Processor pro= new Processor();
+		int i =44;
+		int j = 98;
+		int ints[] = { 45,56,36,25,81};
+		String objs[]= {"Ralph", "shally", "Duran"};
+		pro.process(ints);
+		pro.process(objs);
+		pro.process(i, j);
+
+	}
+
+}
+class Processor {  //over load process
+
+	public void process(int i, int j) {
+		System.out.printf("Processing two integers:%d, %d", i, j);
+		
+	}
+
+	public void process(int[] ints) {
+		System.out.println("Adding integer  in array:" + Arrays.toString(ints));
+	}
+
+	public void process(String[] objs) {
+		System.out.println("Adding  array:" + Arrays.toString(objs));
+		//System.out.println(Arrays.toString(objs));
+	} 
+		
+		
+}

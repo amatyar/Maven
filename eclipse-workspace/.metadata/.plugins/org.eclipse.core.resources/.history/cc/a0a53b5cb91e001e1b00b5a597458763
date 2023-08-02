@@ -1,0 +1,50 @@
+/**
+ * @author Rabindra
+ *
+ */
+public class HierarchicalInterface 
+{
+	public static void main(String[] args) 
+	{
+		Student st = new Student(435, "Rabindra");
+		st.NameId();
+		System.out.println("**********Next case********");
+
+
+	}
+
+}
+class Student
+{
+	protected int Identification;
+	private String Name;
+	public Student(int id, String nm) 
+	{
+		this.Identification =id;
+		this.Name =nm;
+	}
+	
+	public void NameId()
+	{
+		System.out.println(this.Name +" ," + this.Identification);
+	}
+	
+	
+}
+class Son extends Student
+{
+	private String LastName;
+	private String Location;
+	
+}
+class friend extends Student
+{  
+	private String Address;
+	protected int phone;
+	
+}
+class employee extends Student
+{
+	private String Postion;
+	private double salary;
+}
